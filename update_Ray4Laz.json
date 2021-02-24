@@ -15,7 +15,7 @@
   ],
   "UpdatePackageData" : {
     "DisableInOPM" : false,
-    "DownloadZipURL" : "https://github.com/GuvaCode/Ray4Laz/archive/v1.2.zip",
+    "DownloadZipURL" : "https://github.com/GuvaCode/Ray4Laz/archive/v1.3.zip",
     "Name" : "Ray4Laz"
   }
 }
