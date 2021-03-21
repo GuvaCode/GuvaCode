@@ -1,7 +1,7 @@
 {
   "UpdateLazPackages" : [
     {
-      "ForceNotify" : true,
+      "ForceNotify" : false,
       "InternalVersion" : 1,
       "Name" : "codelibrarian.lpk",
       "Version" : "1.3.0.1"
