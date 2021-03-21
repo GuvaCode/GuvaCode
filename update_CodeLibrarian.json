@@ -9,7 +9,7 @@
   ],
   "UpdatePackageData" : {
     "DisableInOPM" : false,
-    "DownloadZipURL" : "https://github.com/GuvaCode/Code-Librarian/archive/refs/tags/1.0.zip",
+    "DownloadZipURL" : "https://github.com/GuvaCode/Code-Librarian/archive/refs/tags/1.1.zip",
     "Name" : "Code-Librarian"
   }
 }
