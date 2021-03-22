@@ -1,15 +1,15 @@
 {
   "UpdateLazPackages" : [
     {
-      "ForceNotify" : false,
+      "ForceNotify" : true,
       "InternalVersion" : 1,
       "Name" : "codelibrarian.lpk",
-      "Version" : "1.3.0.1"
+      "Version" : "master"
     }
   ],
   "UpdatePackageData" : {
     "DisableInOPM" : false,
-    "DownloadZipURL" : "https://github.com/GuvaCode/Code-Librarian/archive/refs/tags/1.3.zip",
+    "DownloadZipURL" : "https://github.com/GuvaCode/Code-Librarian/archive/refs/heads/main.zip",
     "Name" : "Code-Librarian"
   }
 }
