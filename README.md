@@ -4,8 +4,7 @@
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-grey?style=for-the-badge&logo=telegram&logoColor=white&link=https://t.me/GuvaCode)](https://t.me/GuvaCode) 
 [![Discord Badge](https://img.shields.io/badge/-Discord-blue?style=for-the-badge&logo=discord&logoColor=white&link=https://discord.gg/xc9D8ZWz)](https://discord.gg/xc9D8ZWz) 
 
-[![github-profile-trophy](https://github-profile-trophy.vercel.app/?username=guvacode&theme=flat)]()
-
+[![trophy](https://github-profile-trophy.vercel.app/?username=guvacode)](https://github.com/ryo-ma/github-profile-trophy)
 
 
 
