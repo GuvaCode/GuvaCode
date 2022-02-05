@@ -1,3 +1,4 @@
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&multiline=true&lines=I+love+Pascal+and+have+been+programming;in+it+for+more+than+25+years.)](https://git.io/typing-svg)
 
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:guvacode@gmail.com)](mailto:guvacode@gmail.com) 
 [![Vk Badge](https://img.shields.io/badge/-VKontakte-0072b1?style=for-the-badge&logo=Vk&logoColor=white&link=https://vk.com/gunkovadim)](https://vk.com/gunkovadim) 
