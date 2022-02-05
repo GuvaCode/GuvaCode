@@ -3,13 +3,13 @@
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-grey?style=for-the-badge&logo=telegram&logoColor=white&link=https://t.me/GuvaCode)](https://t.me/GuvaCode) 
 [![Discord Badge](https://img.shields.io/badge/-Discord-blue?style=for-the-badge&logo=discord&logoColor=white&link=https://discord.gg/xc9D8ZWz)](https://discord.gg/xc9D8ZWz) 
 
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=guvacode&theme=github) 
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=guvacode&theme=github) 
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=guvacode&theme=github) 
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=guvacode&theme=github) 
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=guvacode&theme=github) 
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%233AB1F7&width=500&height=30&lines=I+love+Pascal+and+have+been+programming;in+it+for+more+than+25+years.)](https://git.io/typing-svg)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=guvacode&column=4)](https://github.com/ryo-ma/github-profile-trophy)
-
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=guvacode&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
-
-
-[![Github stats](https://github-readme-stats.vercel.app/api?username=guvacode&show_icons=true&include_all_commits=true)](https://github.com/guvacode/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=guvacode&layout=compact)](https://github.com/guvacode/github-readme-stats)
