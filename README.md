@@ -5,7 +5,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%230E04F7&width=500&height=150&lines=I+love+Pascal+and+have+been+programming;in+it+for+more+than+25+years.)](https://git.io/typing-svg)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=guvacode)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=guvacode&column=2)](https://github.com/ryo-ma/github-profile-trophy)
 
 
 
