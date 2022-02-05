@@ -11,16 +11,7 @@
 ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=guvacode&theme=github) 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=guvacode&theme=github) 
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=guvacode&repo=Ray4Laz)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=guvacode&repo=PGF)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=guvacode&repo=Pascal-for-C-users)](https://github.com/anuraghazra/github-readme-stats)
-
-
-
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2340c463&width=500&height=30&lines=I+love+Pascal+and+have+been+programming;in+it+for+more+than+25+years.)](https://git.io/typing-svg)
-
 
 ![](https://komarev.com/ghpvc/?username=guvacode&style=flat-square)
 
