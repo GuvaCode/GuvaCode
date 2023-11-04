@@ -21,6 +21,15 @@ esac
 
 
 clear
+
+mkdir libs
+mkdir libs/x86_64-linux
+mkdir libs/x86_32-linux
+mkdir libs/x86_64-windows
+mkdir libs/x86_32-windows
+
+
+
 echo "build raylib ...."
 echo "build x64 linux ..."
 
@@ -30,54 +39,74 @@ make PLATFORM=PLATFORM_DESKTOP RAYLIB_LIBTYPE=SHARED RAYLIB_MODULE_RAYGUI=TRUE R
 
 echo " copy libs x86_64-linux ..."
 
-cp libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so
-#ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so.500
-#ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so.500 /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so
+rm -f ../../libs/x86_64-linux/*
+cp libraylib.so.5.0.0 ../../libs/x86_64-linux/libraylib.so
+
+#ln -s /../../libs/x86_64-linux/libraylib.so.5.0.0 /../../libs/x86_64-linux/libraylib.so.500
+#ln -s /../../libs/x86_64-linux/libraylib.so.500 /../../libs/x86_64-linux/libraylib.so
 
 make clean
 
 make PLATFORM=PLATFORM_DESKTOP RAYLIB_MODULE_RAYGUI=TRUE RAYLIB_MODULE_PHYSAC=TRUE
-cp libraylib.a /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux
+cp libraylib.a ../../libs/x86_64-linux
 
 
 echo " build x86_32 linux ..."
-cd raylib/src
+### cd raylib/src
 make clean
 make PLATFORM=PLATFORM_DESKTOP RAYLIB_LIBTYPE=SHARED RAYLIB_MODULE_RAYGUI=TRUE RAYLIB_MODULE_PHYSAC=TRUE LDFLAG=-m32
 
 
 echo " copy libs x86_32-linux ..."
-cp libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so
-#ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so.500
-#ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so.500 /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so
+rm -f ../../libs/x86_32-linux/*
+cp libraylib.so.5.0.0 ../../libs/x86_32-linux/libraylib.so
+#ln -s /../../libs/x86_32-linux/libraylib.so.5.0.0 /../../libs/x86_32-linux/libraylib.so.500
+#ln -s /../../libs/x86_32-linux/libraylib.so.500 /../../libs/x86_32-linux/libraylib.so
 make clean
 
 make PLATFORM=PLATFORM_DESKTOP RAYLIB_MODULE_RAYGUI=TRUE RAYLIB_MODULE_PHYSAC=TRUE LDFLAG=-m32
-cp libraylib.a /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux
+cp libraylib.a ../../libs/x86_32-linux
 #--------------------------------------------------------------------------------------------------------
 
 make clean 
 echo " build x64 windows ..."
-
 cp ../../raygui/src/raygui.h raygui.c
 cp ../../physac/src/physac.h physac.h
+
+#### x86_64-w64-mingw32-windres
+
+x86_64-w64-mingw32-windres raylib.rc -o raylib.rc.data
+x86_64-w64-mingw32-windres raylib.dll.rc -o raylib.dll.rc.data
 
 make PLATFORM=PLATFORM_DESKTOP RAYLIB_LIBTYPE=SHARED RAYLIB_MODULE_RAYGUI=TRUE RAYLIB_MODULE_PHYSAC=TRUE OS=Windows_NT CC=x86_64-w64-mingw32-gcc AR=x86_64-w64-mingw32-ar 
 
-cp libraylibdll.a /home/vadim/Проекты/Ray4Laz/libs/x86_64-windows
-cp raylib.dll /home/vadim/Проекты/Ray4Laz/libs/x86_64-windows
-make clean
+rm -f ../../libs/x86_64-windows/*
+cp libraylibdll.a ../../libs/x86_64-windows
+cp raylib.dll ../../libs/x86_64-windows
 
+
+make clean
+echo " build x32 windows ..."
 cp ../../raygui/src/raygui.h raygui.c
 cp ../../physac/src/physac.h physac.h
 
-echo " build x32 windows ..."
+#### i686-w64-mingw32-windres
+
+i686-w64-mingw32-windres raylib.rc -o raylib.rc.data
+i686-w64-mingw32-windres raylib.dll.rc -o raylib.dll.rc.data
+
 make PLATFORM=PLATFORM_DESKTOP RAYLIB_LIBTYPE=SHARED RAYLIB_MODULE_RAYGUI=TRUE RAYLIB_MODULE_PHYSAC=TRUE OS=Windows_NT CC=i686-w64-mingw32-gcc AR=i686-w64-mingw32-ar
 
-cp libraylibdll.a /home/vadim/Проекты/Ray4Laz/libs/x86_32-windows
-cp raylib.dll /home/vadim/Проекты/Ray4Laz/libs/x86_32-windows
+rm -f ../../libs/x86_32-windows/*
+cp libraylibdll.a ../../libs/x86_32-windows
+cp raylib.dll ../../libs/x86_32-windows
+#make clean
 
 rm raygui.c
 rm physac.h
 
-make clean
+echo "--------------------"
+echo "| All done ..      |"
+echo "--------------------"
+
+
