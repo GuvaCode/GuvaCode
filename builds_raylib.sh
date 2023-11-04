@@ -30,9 +30,9 @@ make PLATFORM=PLATFORM_DESKTOP RAYLIB_LIBTYPE=SHARED RAYLIB_MODULE_RAYGUI=TRUE R
 
 echo " copy libs x86_64-linux ..."
 
-cp libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux
-ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so.500
-ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so.500 /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so
+cp libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so
+#ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so.500
+#ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so.500 /home/vadim/Проекты/Ray4Laz/libs/x86_64-linux/libraylib.so
 
 make clean
 
@@ -47,9 +47,9 @@ make PLATFORM=PLATFORM_DESKTOP RAYLIB_LIBTYPE=SHARED RAYLIB_MODULE_RAYGUI=TRUE R
 
 
 echo " copy libs x86_32-linux ..."
-cp libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux
-ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so.500
-ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so.500 /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so
+cp libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so
+#ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so.5.0.0 /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so.500
+#ln -s /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so.500 /home/vadim/Проекты/Ray4Laz/libs/x86_32-linux/libraylib.so
 make clean
 
 make PLATFORM=PLATFORM_DESKTOP RAYLIB_MODULE_RAYGUI=TRUE RAYLIB_MODULE_PHYSAC=TRUE LDFLAG=-m32
