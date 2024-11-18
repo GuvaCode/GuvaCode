@@ -23,9 +23,9 @@
       "License" : "zlib License",
       "RelativeFilePath" : "package\\/",
       "VersionAsString" : "5.5.0.0",
-      "LazCompatibility" : "2.2.0, 2.2.4, 3.0.0, 3.2.0, trunk",
-      "FPCCompatibility" : "3.2.0, 3.2.2, 3.2.4",
-      "SupportedWidgetSet" : "gtk2, win32/win64",
+      "LazCompatibility" : "Trunk, 3.6.0, 3.4.0, 3.2.0, 3.0.0, 2.2.6, 2.2.4, 2.2.2, 2.2.0, 2.0.10, 2.0.8, 2.0.6, 2.0.4, 2.0.2, 2.0.0",
+      "FPCCompatibility" : "3.2.2, 3.2.0, 3.0.4, 3.0.2, 3.0.0",
+      "SupportedWidgetSet" : "cocoa, gtk2, gtk3, qt, qt5, qt6, win32/win64",
       "PackageType" : 2,
       "DependenciesAsString" : "FCL"
     },
@@ -36,9 +36,9 @@
       "License" : "",
       "RelativeFilePath" : "package\\/",
       "VersionAsString" : "5.5.0.0",
-      "LazCompatibility" : "2.2.0, 2.2.4, 3.0.0, 3.2.0, trunk",
-      "FPCCompatibility" : "3.2.0, 3.2.2, 3.2.4",
-      "SupportedWidgetSet" : "gtk2, win32/win64",
+      "LazCompatibility" : "Trunk, 3.6.0, 3.4.0, 3.2.0, 3.0.0, 2.2.6, 2.2.4, 2.2.2, 2.2.0, 2.0.10, 2.0.8, 2.0.6, 2.0.4, 2.0.2, 2.0.0",
+      "FPCCompatibility" : "3.2.2, 3.2.0, 3.0.4, 3.0.2, 3.0.0",
+      "SupportedWidgetSet" : "cocoa, gtk2, gtk3, qt, qt5, qt6, win32/win64",
       "PackageType" : 0,
       "DependenciesAsString" : "ray4laz, IDEIntf, FCL"
     }
