@@ -1,0 +1,46 @@
+{
+  "PackageData0" : {
+    "Name" : "Ray4Laz",
+    "DisplayName" : "Ray4Laz",
+    "Category" : "Games and Game Engines",
+    "CommunityDescription" : "Headers translation of the Raylib game development library. Inspired by Borland BGI graphics lib and by XNA framework.",
+    "ExternalDependecies" : "",
+    "OrphanedPackage" : 0,
+    "RepositoryFileName" : "Ray4Laz.zip",
+    "RepositoryFileSize" : 51292971,
+    "RepositoryFileHash" : "23c0b195aa94a166da6cd1ae4e89ee78",
+    "RepositoryDate" : 4.5614800463865744E+004,
+    "PackageBaseDir" : "Ray4Laz\\/",
+    "HomePageURL" : "https://github.com/GuvaCode/Ray4Laz",
+    "DownloadURL" : "https://raw.githubusercontent.com/GuvaCode/GuvaCode/main/update_Ray4Laz.json",
+    "SVNURL" : ""
+  },
+  "PackageFiles0" : [
+    {
+      "Name" : "ray4laz.lpk",
+      "Description" : "A complete header translation (binding) of the raylib 5.5 to Pascal. Without any funky helper functions for memory alignment issues. Inspired and partially based on the drezgames/raylib-pascal binding, however a little cleaner and more recent, with FPC 3.2.0 support. ",
+      "Author" : "Gunko Vadim",
+      "License" : "zlib License",
+      "RelativeFilePath" : "package\\/",
+      "VersionAsString" : "5.5.0.0",
+      "LazCompatibility" : "2.2.0, 2.2.4, 3.0.0, 3.2.0, trunk",
+      "FPCCompatibility" : "3.2.0, 3.2.2, 3.2.4",
+      "SupportedWidgetSet" : "gtk2, win32/win64",
+      "PackageType" : 2,
+      "DependenciesAsString" : "FCL"
+    },
+    {
+      "Name" : "ray4laz_designtime.lpk",
+      "Description" : "Desing time package for ray4laz ",
+      "Author" : "Gunko Vadim guvacode@gmail.com",
+      "License" : "",
+      "RelativeFilePath" : "package\\/",
+      "VersionAsString" : "5.5.0.0",
+      "LazCompatibility" : "2.2.0, 2.2.4, 3.0.0, 3.2.0, trunk",
+      "FPCCompatibility" : "3.2.0, 3.2.2, 3.2.4",
+      "SupportedWidgetSet" : "gtk2, win32/win64",
+      "PackageType" : 0,
+      "DependenciesAsString" : "ray4laz, IDEIntf, FCL"
+    }
+  ]
+}
