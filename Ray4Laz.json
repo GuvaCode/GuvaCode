@@ -1,12 +1,12 @@
 {
   "PackageData0" : {
-    "Name" : "Ray4Laz",
-    "DisplayName" : "Ray4Laz",
+    "Name" : "ray4laz",
+    "DisplayName" : "ray4laz",
     "Category" : "Games and Game Engines",
     "CommunityDescription" : "Headers translation of the Raylib game development library. Inspired by Borland BGI graphics lib and by XNA framework.",
     "ExternalDependecies" : "",
     "OrphanedPackage" : 0,
-    "RepositoryFileName" : "Ray4Laz.zip",
+    "RepositoryFileName" : "ray4laz_opm.zip",
     "RepositoryFileSize" : 51292915,
     "RepositoryFileHash" : "1b6d133471dcc52a6c50691860a9b82f",
     "RepositoryDate" : 4.5618829765277776E+004,
